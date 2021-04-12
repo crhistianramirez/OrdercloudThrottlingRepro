@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ThrottlingRepro": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ClientID": "5863BC22-302F-45C8-97B3-C26411B21216",
+        "ClientSecret": "ytiwOdW9jgWMm5GF86kTBvsy5n6InD3172BdfhUlbP6EWXNt1Krcmv9RAsoo"
+      }
+    }
+  }
+}
