@@ -8,6 +8,17 @@ using System.Net;
 
 namespace ThrottlingRepro
 {
+    /// <summary>
+    /// To repro locally
+    /// 1. Create a new organization
+    /// 2. Create a new API Client with a ClientSecret and Seller Access
+    /// 3. Create an admin user with Active set to true
+    /// 4. Create a security profile with FullAccess
+    /// 5. Assign security profile to admin user
+    /// 6. Set default context user of API client to admin user in step 3
+    /// 7. Set environment variables ClientID and ClientSecret
+    /// 8. Run this and observe there are no errors related to 429 at concurrency of 30 parallel requests
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
